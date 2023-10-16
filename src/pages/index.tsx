@@ -7,7 +7,6 @@ import EmptyState from "../components/empty-state";
 import { supabase } from "../lib/supabase";
 import { useEffect, useState } from "react";
 import moment from "moment";
-import { toast } from "sonner";
 
 type Note = {
   color: string;
