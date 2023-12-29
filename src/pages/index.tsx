@@ -46,7 +46,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-col">
       <CreateNote refetch={getNotes} />
       <div className="top-0 sticky">
         <Nav />
@@ -74,7 +74,9 @@ const Index = () => {
             ))}
           </>
         ) : (
-          <EmptyState />
+          <div className="mx-auto mt-6">
+            <EmptyState />
+          </div>
         )}
       </div>
     </div>
