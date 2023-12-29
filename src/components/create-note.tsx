@@ -40,20 +40,21 @@ export default function CreateNote({
 
   const handleSubmit = async () => {
     if (!editor?.getText()) return 0;
-
+    toast.loading("Loading");
     try {
       await supabase.from("notes").insert({
         content: editor.getText(),
         color: background,
         user_id: userId as string,
       });
-
+      toast.success("Memo created");
       editor.commands.clearContent(true);
       refetch();
       window.create_note.close();
     } catch (err) {
       editor?.commands.clearContent(true);
       window.create_note.close();
+      toast.error("An error occurred");
       return err;
     }
   };
@@ -62,13 +63,7 @@ export default function CreateNote({
     <>
       <dialog
         id="create_note"
-        onClose={() =>
-          toast.promise(handleSubmit(), {
-            loading: "Loading",
-            error: "An error occurred",
-            success: "Memo created",
-          })
-        }
+        onClose={() => handleSubmit()}
         className="backdrop-blur-sm modal modal-middle"
       >
         <div

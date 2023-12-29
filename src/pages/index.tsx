@@ -31,7 +31,8 @@ const Index = () => {
     const { data } = await supabase
       .from("notes")
       .select()
-      .eq("user_id", userId as string);
+      .eq("user_id", userId as string)
+      .order("created_at", { ascending: false });
 
     setNotes(data);
   };
