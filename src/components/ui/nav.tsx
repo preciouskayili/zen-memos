@@ -1,4 +1,4 @@
-import { PlusIcon, SearchIcon } from "@iconicicons/react";
+import { PlusIcon } from "@iconicicons/react";
 import { UserButton } from "@clerk/clerk-react";
 
 interface CustomWindow extends Window {
