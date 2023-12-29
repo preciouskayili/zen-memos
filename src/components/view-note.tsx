@@ -47,7 +47,7 @@ export default function ViewNote({
         {activeMemo ? (
           <>
             <div
-              className={`modal-box px-8 py-5 flex flex-col w-[30rem] h-[30rem] text-2xl ${activeMemo?.color}-dark font-semibold text-[#000] leading-normal m-5`}
+              className={`modal-box px-8 py-5 flex flex-col sm:w-[20rem] md:w-[30rem] h-[30rem] text-2xl ${activeMemo?.color}-dark font-semibold text-[#000] leading-normal m-5`}
             >
               <p>{activeMemo?.content}</p>
               <div className="flex mt-auto w-full">
