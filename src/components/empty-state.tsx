@@ -1,6 +1,6 @@
 export default function EmptyState() {
   return (
-    <div className="flex flex-col items-center cursor-pointer justify-center bg-purple-dark/10 h-[30rem] w-[30rem]">
+    <div className="flex flex-col items-center cursor-pointer justify-center bg-purple-dark/10 sm:w-[20rem] md:w-[30rem] h-[30rem]">
       <div className="p-3 flex flex-col items-center justify-center h-full">
         <div className="rounded-full animate-bounce h-36 w-36 bg-red" />
         <h1 className="text-xl font-bold mt-5">
