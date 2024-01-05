@@ -67,7 +67,7 @@ export default function CreateNote({
         className="backdrop-blur-sm modal modal-middle"
       >
         <div
-          className={`modal-box p-0 ${background} flex flex-col w-[30rem] h-[30rem]`}
+          className={`modal-box p-0 ${background} flex flex-col sm:w-[20rem] md:w-[30rem] h-[30rem]`}
         >
           <div className="editor-section px-8 py-4 h-full">
             <EditorContent editor={editor} />
