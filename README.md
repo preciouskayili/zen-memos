@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Zenmemos: A Chill Journal Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Zenmemos! 🌿
 
-Currently, two official plugins are available:
+Zenmemos is not just another project; it's a tranquil space where you can jot down your thoughts, ideas, and reflections in a calm and serene environment. Inspired by the essence of mindfulness, this project aims to provide you with a soothing platform to express yourself freely and privately.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 🌟
 
-## Expanding the ESLint configuration
+- **Chill Vibes**: Experience a relaxed atmosphere designed to encourage mindfulness and self-expression.
+  
+- **Journaling**: Write your daily musings, ideas, or reflections effortlessly.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Minimalistic Design**: Embrace simplicity with a clean and clutter-free interface.
 
-- Configure the top-level `parserOptions` property like this:
+- **Responsive**: Access Zenmemos seamlessly across all your devices, whether it's your laptop, tablet, or smartphone.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Getting Started 🚀
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To start your journey with Zenmemos, follow these simple steps:
+
+1. Visit [Zenmemos](https://zen-memos.vercel.app/)
+2. Sign up using your Google account or sign in if you already have an account
+3. Once you've done this, you can now enjoy your chill space and have some fun making some fun memories
+   
+## Spread the Chill Vibes 🌿
+
+Help us spread the chill vibes of Zenmemos by sharing it with your friends, family, and fellow chill seekers. Together, let's create a community where everyone can find peace and tranquility through journaling.
